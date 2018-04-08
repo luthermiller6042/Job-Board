@@ -1,25 +1,21 @@
 {
-  "name": "robofriends",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://luthermiller6042.github.io/luthermiller6042.github.io",
-  "dependencies": {
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-     "tachyons": "^4.9.1"
-  },
-     "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "react-scripts": "1.1.4"
-  
-  },
+  "name": "job-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages - d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luthermiller6042/Job-Board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luthermiller6042/Job-Board/issues"
+  },
+  "homepage": "https://github.com/luthermiller6042/Job-Board#index.html"
 }
- 
