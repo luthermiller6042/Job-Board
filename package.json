@@ -2,7 +2,7 @@
   "name": "job-board",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://luthermiller6042.github.io/job-board",
+  "homepage": "https://luthermiller6042.github.io/jobboard/",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
