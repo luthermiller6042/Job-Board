@@ -2,15 +2,17 @@
   "name": "jobboard",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://luthermiller6042.github.io/jobboard/",
+  "homepage": "https://luthermiller6042.github.io/jobboard/",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-scripts": "1.1.4"
+    "react-favicon": "0.0.14",
+    "react-scripts": "1.1.4",
+    "tachyons": "^4.9.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
