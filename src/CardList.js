@@ -1,7 +1,8 @@
 import React from 'react';
-
 import Card from './Card';
-const CardList = ({robots}) => {
+
+
+const CardList = ({ robots }) => {
 	const cardCom = robots.map((user, i) =>{
 		return (<Card 
 			
@@ -16,7 +17,7 @@ const CardList = ({robots}) => {
 				   );
 	})
 	return(
-		<div>
+		<div className="flex flex-wrap justify-around">
 					
 					{cardCom}
 					</div>
